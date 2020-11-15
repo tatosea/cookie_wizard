@@ -11,6 +11,11 @@ abstract class CookieWizard {
 
   List<Cookie> loadAllCookie();
 
+  Map<String, String> extract(
+    Uri uri, {
+    List<String> cookiesName,
+  });
+
   void clear();
 
   void clearAll();
