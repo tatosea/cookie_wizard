@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'src.dart';
 
-abstract class CookieWizard {
+class CookieWizard {
   CookieWizard(BaseStorage storage);
 
   void saveCookie(Uri uri, List<Cookie> cookies);
